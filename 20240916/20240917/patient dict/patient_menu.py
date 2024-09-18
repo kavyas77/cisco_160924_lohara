@@ -5,7 +5,7 @@ def menu():
 2-delete patient by id
 3-display all patients
 4-display patient by id
-5-update patient by id
+5-update patient by id                      
 7-end
 your choice:'''))
     if choice == 1:
@@ -23,6 +23,7 @@ your choice:'''))
     elif choice == 5:
         id=int(input("enter patient id"))
         patient_update(id)
+
     elif choice == 7:
         pass 
     else:
