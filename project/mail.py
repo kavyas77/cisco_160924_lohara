@@ -69,8 +69,8 @@ def write_product_json(id):
 
 # Step 3: Send email with JSON attachment
 def send_mail(product_json, recipient_email):
-    sender_email = 'bhargavidasari528@gmail.com'
-    password = 'dmfn peul mjgq qjpk'  # App Password
+    sender_email = 'kavyashanmugavadivel@gmail.com'
+    password = 'sfdz yzka exgz atqx'  # App Password
     subject = 'Cab Booking Confirmation'
 
 
@@ -117,4 +117,4 @@ Cab.create("CAB123", "SUV", 50.0)  # Add a product if DB is empty
 # Write product to JSON file and send an email
 file = write_product_json(1)
 if file:
-    send_mail(file, "kavyashanmugavadivel@gmail.com")
+    send_mail(file, "kousalyashanmugavadivel@gmail.com")
