@@ -1,6 +1,7 @@
 import sqlite3
 
 
+
 def connect():
     con = sqlite3.connect('vehicle_db.db')
     return con 
